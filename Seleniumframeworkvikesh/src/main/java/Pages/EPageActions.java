@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.function.Function;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -45,7 +46,7 @@ public class EPageActions extends DriverActions {
 	@SuppressWarnings("deprecation")
 	public void waitUntilElementVisible(By selector) {
 		 Wait wait = new WebDriverWait(getDriver(), 30);
-		 wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
+		 wait.until((Function) ExpectedConditions.visibilityOfElementLocated(selector));
 		 
 
 	}
