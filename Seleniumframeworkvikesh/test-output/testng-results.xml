@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7388" started-at="2019-10-16T09:39:24Z" finished-at="2019-10-16T09:39:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7388" started-at="2019-10-16T09:39:24Z" finished-at="2019-10-16T09:39:32Z">
+      <class name="Frmwrk.Seleniumframeworkvikesh.TestJSErrorsEverestTest">
+        <test-method status="PASS" signature="collectJSErrors()[pri:0, instance:Frmwrk.Seleniumframeworkvikesh.TestJSErrorsEverestTest@725bef66]" name="collectJSErrors" duration-ms="7366" started-at="2019-10-16T15:09:24Z" finished-at="2019-10-16T15:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectJSErrors -->
+      </class> <!-- Frmwrk.Seleniumframeworkvikesh.TestJSErrorsEverestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
