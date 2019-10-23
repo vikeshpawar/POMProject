@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 
 public class ConstantsEverestTestEnv {
 
-	// Test 
+	// Test office
     private static final String CAMPAIGN_HOME_PAGE_URL= "http://questlite.test.quinstreet.net/qcm/campaign.jsp#!/list";
     private static final String CAMPAIGN_5177_EDIT_URL = "http://questlite.test.quinstreet.net/qcm/campaign.jsp#!/edit/5177";
     private static final String CREATIVE_LIST_PAGE_URL = "http://questlite.test.quinstreet.net/qcm/creative.jsp";
